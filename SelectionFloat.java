@@ -23,5 +23,14 @@ public class SelectionFloat {
             }
 
         }
+
+        // arreglo ordenado de forma ascendente
+        System.out.println("Arreglo ordenado de forma ascendente");
+        for(float dato : arr){
+            System.out.println( dato +" ");
+        }
+
+        System.out.println("\nComparaciones: " + comparaciones);
+        System.out.println("Intercambios: " + intercambios);
     }
 }
