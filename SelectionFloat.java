@@ -14,6 +14,14 @@ public class SelectionFloat {
                     min = j;
                 }
             }
+
+            if (min != i) {
+                float vacio = arr[min];  // se guarda el valor del minimo temporalmente
+                arr[min]= arr[i];  // se asigna el valor actual en la posicion del minimo
+                arr[i] = vacio;  // se asigna el valor minimo en la posicion actual
+                intercambios++;
+            }
+
         }
     }
 }
