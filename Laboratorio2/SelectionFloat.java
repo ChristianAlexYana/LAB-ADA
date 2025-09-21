@@ -1,3 +1,5 @@
+package Laboratorio2;
+
 public class SelectionFloat {
     public static void main (String args[]){
         float arr []= {5.12f ,2.15f ,5.14f ,2.11f ,6} ;
